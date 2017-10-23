@@ -11,15 +11,18 @@ class ContactController extends Controller {
         return view('web.contact');
     }
 
-    public function send(Request $request) {
+    public function store(Request $request) {
 
-//        $data = $request->only('fname', 'lname', 'email', 'body');
-//
-//        Mail::send('home', $data, function ($message) use ($data) {
-//            $message->from($data['email']);
-//            $message->to('moneaiustin@gmail.com');
-//            $message->subject($data['body']);
-//        });
+        \Mail::send('email.contact', array(
+            'name' => $request->post('lname') . " " . $request->post('fname'),
+            'email' => $request->post('email'),
+            'body' => $request->post('body')
+                ), function($message) {
+
+            $message->from('contact@exceedbuy.com');
+            $message->to('moneaiustin@gmail.com', 'Admin')->subject('Contact EXCEEDBUY');
+            return redirect()->back()->with('message', 'Thanks for contacting us!');
+        });
     }
 
 }

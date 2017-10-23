@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
-                            <h2>Quality is a way of life !</h2>
+                            <h2>Quality, a way of life !</h2>
                         </div>
                     </div>
                 </div>
@@ -28,9 +28,9 @@
                         <i class="icon-laptop3"></i>
                     </div>
                     <div class="text">
-                        <h3 class="heading">Business Strategy</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                        <p><a href="single-page.html">Learn more</a></p>
+                        <h3 class="heading">Why ExceedBuy?</h3>
+                        <p>At ExceedBuy.com we have always set out to be the kind of company that we would want to deal with if we were making an online purchase. Consequently, we take security and customer service very seriously and appreciate the trust placed in us by all of our customers when making a purchase. </p>
+                        <!--<p><a href="single-page.html">Learn more</a></p>-->
                     </div>
 
                 </div>
@@ -41,9 +41,9 @@
                         <i class="icon-presentation"></i>
                     </div>
                     <div class="text">
-                        <h3 class="heading">Business Marketing</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                        <p><a href="single-page.html">Learn more</a></p>
+                        <h3 class="heading">Our Products</h3>
+                        <p>All our products are carefully selected and of the highest quality and checked before dispatch. We aim to stock the highest quality brands of baby products! </p>
+                        <!--<p><a href="single-page.html">Learn more</a></p>-->
                     </div>
                 </div>
             </div>
@@ -53,9 +53,9 @@
                         <i class="icon-wallet2"></i>
                     </div>
                     <div class="text">
-                        <h3 class="heading">Business Profit</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                        <p><a href="single-page.html">Learn more</a></p>
+                        <h3 class="heading">Store</h3>
+                        <p>The ExceedBuy store has one main goal in mind. We aim to offer quality, unique and affordable children's products to parents, grandparents, family and friends who will be delighted to purchase (or receive as a gift) one of our products. </p>
+                        <!--<p><a href="single-page.html">Learn more</a></p>-->
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
             <div class="col-md-12 probootstrap-animate" data-animate-effect="fadeIn">
                 <figure>
                     <div class="probootstrap-video">
-                        <a href="https://www.youtube.com/watch?v=bJLepGeQfrw" class="popup-vimeo probootstrap-video-play overlay"><span><i class="icon-play3"></i></span></a>
+                        <a href="https://www.youtube.com/watch?v=YzKvTFdkatw" class="popup-vimeo probootstrap-video-play overlay"><span><i class="icon-play3"></i></span></a>
                         <img src="img/slider_1.jpg" class="img-responsive">
                     </div>
                 </figure>

@@ -56,7 +56,7 @@
                 <div class = "probootstrap-footer-widget right">
                     <ul class = "probootstrap-social">
                         <li><a href = "#"><i class = "icon-twitter"></i></a></li>
-                        <li><a href = "#"><i class = "icon-facebook"></i></a></li>
+                        <li><a href = "https://www.facebook.com/WeLoveGorgeousBabies/"><i class = "icon-facebook"></i></a></li>
                         <li><a href = "#"><i class = "icon-instagram2"></i></a></li>
                     </ul>
                 </div>

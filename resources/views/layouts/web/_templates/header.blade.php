@@ -2,7 +2,7 @@
 
 <header role="banner" class="probootstrap-header">
     <div class="container">
-        <a href="/" class="probootstrap-logo">{{config('app.name')}}</a>
+        <a href="/" class="probootstrap-logo"><img src="/img/logo.png" height="42" alt="Logo" ></a>
 
         <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
         <div class="mobile-menu-overlay"></div>
@@ -17,7 +17,7 @@
             </ul>
             <ul class="probootstrap-right-nav hidden-xs">
                 <li><a href="#"><i class="icon-twitter"></i></a></li>
-                <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                <li><a href="https://www.facebook.com/WeLoveGorgeousBabies/"><i class="icon-facebook2"></i></a></li>
                 <li><a href="#"><i class="icon-google-plus"></i></a></li>
             </ul>
             <div class="extra-text visible-xs">
@@ -27,7 +27,7 @@
                 <h5>Connect</h5>
                 <ul class="social-buttons">
                     <li><a href="#"><i class="icon-twitter"></i></a></li>
-                    <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li><a href="https://www.facebook.com/WeLoveGorgeousBabies/"><i class="icon-facebook2"></i></a></li>
                     <li><a href="#"><i class="icon-google-plus"></i></a></li>
                 </ul>
             </div>

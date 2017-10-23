@@ -8,8 +8,8 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
-                <h2>Contact</h2>
-                <p>Free HTML5 Template by <a href="https://probootstrap.com/" target="_blank">ProBootstrap.com</a>. Far far away, behind the word mountains, far from the countries.</p>
+                <h2>Warranty Registration</h2>
+                <p>Please enter your</p>
               </div>
             </div>
           </div>
@@ -23,7 +23,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 probootstrap-animate overlap">
-          <form action="/contact/store" method="post" class="probootstrap-form probootstrap-form-box mb60">
+          <form action="/warranty/registration" method="post" class="probootstrap-form probootstrap-form-box mb60">
             <div class="row">
                     {{ csrf_field() }}
               <div class="col-md-6">
@@ -52,18 +52,7 @@
             </div>
           </form>
         </div>
-        <div class="col-md-3 col-md-push-1 probootstrap-animate">
-          <h4>Contact Details</h4>
-          <ul class="with-icon colored">
-            <li><i class="icon-location2"></i> <span>198 West 21th Street, Suite 721 New York NY 10016</span></li>
-            <li><i class="icon-mail"></i><span>info@domain.com</span></li>
-            <li><i class="icon-phone2"></i><span>+123 456 7890</span></li>
-          </ul>
-
-          <h4>Feedback</h4>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          <p><a href="#">Learn More</a></p>
-        </div>
+       
       </div>
     </div>
   </section>  

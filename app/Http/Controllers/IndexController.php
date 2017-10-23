@@ -10,4 +10,8 @@ class IndexController extends Controller {
         return view('web.index');
     }
 
+    public function single() {
+        return view('web.single-page');
+    }
+
 }
