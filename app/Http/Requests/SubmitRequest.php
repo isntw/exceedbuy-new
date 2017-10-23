@@ -22,16 +22,22 @@ class SubmitRequest extends FormRequest {
      */
     public function rules() {
         return [
-            'fname' => 'required|',
-            'lname' => 'required|exists:cards,id|unique:card_assignments,card_id',
+            'fname' => 'required',
+            'lname' => 'required',
             'email' => 'required|email',
-            'body' => 'required|max:256',
+            'body' => 'required|max:4096',
         ];
     }
 
-//    public function messages() {
-//        return [
-//        ];
-//    }
+    public function messages() {
+        return [
+            'fname.required' => 'Please insert your first name.',
+            'lname.required' => 'Please insert your last name.',
+            'email.required' => 'Please insert your email.',
+            'email.email' => 'Please insert a valid email.',
+            'body.required' => 'Please insert a message.',
+            'body.max' => 'Please insert a message up to 4096 characters.',
+        ];
+    }
 
 }

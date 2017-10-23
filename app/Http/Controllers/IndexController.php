@@ -13,6 +13,7 @@ class IndexController extends Controller {
     public function single() {
         return view('web.single-page');
     }
+
     public function services() {
         return view('web.services');
     }
