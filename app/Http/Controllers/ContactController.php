@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Http\Requests\SubmitRequest;
 
 class ContactController extends Controller {
 
@@ -11,7 +12,7 @@ class ContactController extends Controller {
         return view('web.contact');
     }
 
-    public function store(Request $request) {
+    public function store(SubmitRequest $request) {
 
         \Mail::send('email.contact', array(
             'name' => $request->post('lname') . " " . $request->post('fname'),
