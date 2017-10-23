@@ -2,7 +2,7 @@
 
 <header role="banner" class="probootstrap-header">
     <div class="container">
-        <a href="/" class="probootstrap-logo"><img src="/img/logo.png" height="42" alt="Logo" ></a>
+        <a href="/" class="probootstrap-logo"><img src="/img/logo.png" height="60" alt="Logo" ></a>
 
         <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
         <div class="mobile-menu-overlay"></div>

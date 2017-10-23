@@ -3,13 +3,13 @@
 @section('content')
   <section class="probootstrap-slider flexslider">
     <ul class="slides">
-      <li style="background-image: url(img/slider_2.jpg);" class="overlay2">
+      <li style="background-image: url(img/slider_1.jpg);" class="overlay2">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
-                <h2>Portfolio</h2>
-                <p>Free HTML5 Template by <a href="https://probootstrap.com/" target="_blank">ProBootstrap.com</a>. Far far away, behind the word mountains, far from the countries.</p>
+                <h2>Products</h2>
+                <p>Our products.</p>
               </div>
             </div>
           </div>
@@ -23,7 +23,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center section-heading probootstrap-animate">
-          <h2>Check our selected works over the past 10 years.</h2>
+          <h2>Check our products.</h2>
         </div>
       </div>
       <div class="row">
@@ -31,150 +31,16 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
+              <a href="products/ear"><img src="{{url('img/product_1.png')}}" class="img-responsive img-border"></a>
             </div>
             <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Vokalia and Consonantia</h2>
-              <p class="category">Design</p>
-              <p><a href="single-page.html">View details</a></p>
+              <h2 class="probootstrap-card-heading mb0">Ear Defender</h2>
+              <p class="category">Babies</p>
+              <p><a href="products/ear">View details</a></p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Live the Blind Texts</h2>
-              <p class="category">Model</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Behind the Word Mountains</h2>
-              <p class="category">Website</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Vokalia and Consonantia</h2>
-              <p class="category">Design</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Live the Blind Texts</h2>
-              <p class="category">Model</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Behind the Word Mountains</h2>
-              <p class="category">Website</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Vokalia and Consonantia</h2>
-              <p class="category">Design</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Live the Blind Texts</h2>
-              <p class="category">Model</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Behind the Word Mountains</h2>
-              <p class="category">Website</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Vokalia and Consonantia</h2>
-              <p class="category">Design</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Live the Blind Texts</h2>
-              <p class="category">Model</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Behind the Word Mountains</h2>
-              <p class="category">Website</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
+       
 
       </div>
     </div>

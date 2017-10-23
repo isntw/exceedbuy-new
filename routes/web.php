@@ -22,4 +22,7 @@ Route::get('/contact', 'ContactController@index')->name('web.contact');
 Route::get('/blog', 'IndexController@index')->name('web.blog');
 Route::post('/contact/store', 'ContactController@store')->name('web.contact.store');
 
+Route::get('/products/ear',  function () {
+    return view('web.products.ear');
+});
 

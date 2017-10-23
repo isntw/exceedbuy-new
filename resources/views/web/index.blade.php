@@ -160,43 +160,19 @@
                 <h2>Recent Work</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 probootstrap-animate">
-                <div class="probootstrap-card with-hover">
-                    <div class="probootstrap-card-media">
-                        <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-                    </div>
-                    <div class="probootstrap-card-text">
-                        <h2 class="probootstrap-card-heading mb0">Vokalia and Consonantia</h2>
-                        <p class="category">Design</p>
-                        <p><a href="single-page.html">View details</a></p>
-                    </div>
-                </div>
+                <div class="col-md-4 probootstrap-animate">
+          <div class="probootstrap-card with-hover">
+            <div class="probootstrap-card-media">
+              <a href="products/ear"><img src="{{url('img/product_1.png')}}" class="img-responsive img-border"></a>
             </div>
-            <div class="col-md-4 probootstrap-animate">
-                <div class="probootstrap-card with-hover">
-                    <div class="probootstrap-card-media">
-                        <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-                    </div>
-                    <div class="probootstrap-card-text">
-                        <h2 class="probootstrap-card-heading mb0">Live the Blind Texts</h2>
-                        <p class="category">Model</p>
-                        <p><a href="single-page.html">View details</a></p>
-                    </div>
-                </div>
+            <div class="probootstrap-card-text">
+              <h2 class="probootstrap-card-heading mb0">Ear Defender</h2>
+              <p class="category">Babies</p>
+              <p><a href="products/ear">View details</a></p>
             </div>
-            <div class="col-md-4 probootstrap-animate">
-                <div class="probootstrap-card with-hover">
-                    <div class="probootstrap-card-media">
-                        <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
-                    </div>
-                    <div class="probootstrap-card-text">
-                        <h2 class="probootstrap-card-heading mb0">Behind the Word Mountains</h2>
-                        <p class="category">Website</p>
-                        <p><a href="single-page.html">View details</a></p>
-                    </div>
-                </div>
-            </div>
+          </div>
+        </div>
+       
         </div>
     </div>
 </section>
