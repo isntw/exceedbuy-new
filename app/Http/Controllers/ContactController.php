@@ -22,8 +22,8 @@ class ContactController extends Controller {
 
             $message->from('contact@exceedbuy.com');
             $message->to('moneaiustin@gmail.com', 'Admin')->subject('Mail from an Exceedbuy user.');
-            return redirect('/');
         });
+        return redirect()->back();
     }
 
 }
