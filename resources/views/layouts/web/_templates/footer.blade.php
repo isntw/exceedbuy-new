@@ -49,7 +49,7 @@
             <div class = "col-md-6">
                 <div class = "probootstrap-footer-widget">
                     <p>&copy;
-                        2017 <a href = "https://probootstrap.com/">ProBootstrap:Virb</a>. Designed by <a href = "https://probootstrap.com/">ProBootstrap.com</a> <br> Demo Photos from <a href = "https://unsplash.com/">Unsplash</a></p>
+                        2017 <a href = "#">exceedbuy.com</a>. Proudly powered by <a href = "">Iustinian Monea</a></p>
                 </div>
             </div>
             <div class = "col-md-6">

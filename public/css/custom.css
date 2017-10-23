@@ -1,1 +1,8 @@
-/* Your custom css code goes here */
+#info {
+    color: white;
+    top:30px;
+    right:100px;
+    font-size: 14px;
+  display: inline-grid;
+        
+}
