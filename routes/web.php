@@ -19,7 +19,7 @@ Route::get('/single', 'IndexController@single')->name('web.single');
 Route::get('/products', 'ProductController@index')->name('web.product');
 Route::get('/about', 'AboutController@index')->name('web.about');
 Route::get('/contact', 'ContactController@index')->name('web.contact');
-Route::get('/blog', 'IndexController@index')->name('web.blog');
+Route::get('/blog', 'IndexController@services')->name('web.blog');
 Route::post('/contact/store', 'ContactController@store')->name('web.contact.store');
 Route::get('/warranty', 'WarrantyController@index')->name('web.warranty');
 

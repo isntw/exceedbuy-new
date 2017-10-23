@@ -32,18 +32,7 @@
                     </ul>
                 </div>
             </div>
-            <div class = "col-md-3">
-                <div class = "probootstrap-footer-widget">
-                    <h4 class = "heading">Subscribe</h4>
-                    <p>Far far away behind the word mountains far from.</p>
-                    <form action = "#">
-                        <div class = "form-field">
-                            <input type = "text" class = "form-control" placeholder = "Enter your email">
-                            <button class = "btn btn-subscribe">Send</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+         
         </div>
         <div class = "row copyright">
             <div class = "col-md-6">

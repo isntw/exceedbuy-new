@@ -3,6 +3,8 @@
     top:30px;
     right:100px;
     font-size: 14px;
-  display: inline-grid;
-        
+    display: inline-grid;
+}
+h2{
+  font-size:40px !important;
 }

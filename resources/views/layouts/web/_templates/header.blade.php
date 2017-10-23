@@ -6,9 +6,8 @@
 
         <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
         <div class="mobile-menu-overlay"></div>
-
         <ul class="probootstrap-right-nav hidden-xs" id='info' >
-            <li ><i class="icon-phone" ></i>Call Us : 07554135223</li>
+            <li ><i class="icon-phone" ></i>Call Us : +755 413 5223</li>
             <li ><i class="icon-mail" ></i>Email Us: contact@exceedbuy.com</li>
         </ul>
         <nav role="navigation" class="navbar probootstrap-nav hidden-xs">
@@ -16,7 +15,7 @@
                 <li class="active"><a href="/">Home</a></li>
                 <li><a href="/about">About Us</a></li>
                 <li><a href="/products">Products</a></li>
-                <li><a href="/aboutasdasd">Blog</a></li>
+                <li><a href="/blog">Blog</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
             <ul class="probootstrap-right-nav hidden-xs">
