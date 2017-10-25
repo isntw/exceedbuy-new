@@ -122,7 +122,7 @@
                 <!-- END panel-group -->
             </div>
             <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
-                <p><img src="img/slider_2.jpg" alt="Free HTML Bootstrap Theme by ProBootstrap.com" class="img-responsive"></p>
+                <p><img src="img/index_01.jpg"  class="img-responsive"></p>
             </div>
         </div>
     </div>
@@ -189,7 +189,7 @@
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                     </blockquote>
                     <div class="author">
-                        <img src="img/person_1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Theme by ProBootstrap.com">
+                        <img src="img/person_1.jpg" class="img-responsive" >
                         <div>John Doe <span>Designer at ProBootstrap.com</span></div>
                     </div>
                 </div>
@@ -200,7 +200,7 @@
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                     </blockquote>
                     <div class="author">
-                        <img src="img/person_2.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Theme by ProBootstrap.com">
+                        <img src="img/person_2.jpg" class="img-responsive" >
                         <div>John Doe <span>Designer at ProBootstrap.com</span></div>
                     </div>
                 </div>
@@ -211,7 +211,7 @@
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                     </blockquote>
                     <div class="author">
-                        <img src="img/person_3.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Theme by ProBootstrap.com">
+                        <img src="img/person_3.jpg" class="img-responsive" >
                         <div>John Doe <span>Designer at ProBootstrap.com</span></div>
                     </div>
                 </div>

@@ -5,7 +5,12 @@ jQuery(document).ready(function () {
 
 });
 
-$(document).ready(function() {
-  $('li.active').removeClass('active');
-  $('a[href="' + location.pathname + '"]').closest('li').addClass('active'); 
+$(document).ready(function () {
+    $('li.active').removeClass('active');
+    $('a[href="' + location.pathname + '"]').closest('li').addClass('active');
 });
+
+
+//$('#datetimepicker').datetimepicker({
+//    format: 'yyyy-mm-dd'
+//});

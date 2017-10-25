@@ -9,7 +9,7 @@
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
                 <h2>About Us</h2>
-                <p></p>
+                <p>A Whole Universe Of Top Quality Products For Your Little Angel!</p>
               </div>
             </div>
           </div>
@@ -23,28 +23,30 @@
     <div class="container">
       <div class="row mb50 probootstrap-animate" data-animate-effect="fadeIn">
         <div class="col-md-6">
-          <p><img src="img/slider_3.jpg" alt="Free HTML5 Bootstrap Theme by ProBootstrap.com" class="img-responsive"></p>
+          <p><img src="img/aboutus_1.jpg" class="img-responsive"></p>
         </div>
         <div class="col-md-6">
           <h2>How We Started</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+          <p>When we had our first baby, we soon came to realize that most baby products available on the market were either flimsy, poorly crafted, dull design items or way too expensive for parents.</p>
+          <p>Time to take things into our own hands, we thought.</p>
+          <p>And we established ExceedBuy, to offer babies aged 3-36 months PREMIUM QUALITY products, in addictive TRENDY DESIGNS that will make your little treasure shine!</p>
         </div>
       </div>
       <div class="row probootstrap-animate" data-animate-effect="fadeIn">
         <div class="col-md-6 col-md-push-6">
-          <p><img src="img/slider_2.jpg" alt="Free HTML5 Bootstrap Theme by ProBootstrap.com" class="img-responsive"></p>
+          <p><img src="img/aboutus_2.jpg" class="img-responsive"></p>
         </div>
         <div class="col-md-6 col-md-pull-6">
           <h2>Our Philosophy</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+          <p>We manufacture our baby gear from the sturdiest materials, to offer you the HEAVY-USE, DURABLE baby equipment that will last all the way through your baby’s 3 first years of life.</p>
+          <p>Our products are submitted to the strictest quality controls and are CERTIFIED by third-party laboratories, to make the SAFE, RELIABLE, HEALTHY items your baby deserves.</p>
+          <p>Our unmatched quality is coupled by our unbeatable prices, the prompt shipping and the friendly Customer Service rendered by our specialists on a 24h basis, to make your shopping experience unforgettable!</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="probootstrap-section">
+<!--  <section class="probootstrap-section">
     <div class="container">
       <div class="row">
         <div class="col-md-12 section-heading text-center probootstrap-animate">
@@ -109,7 +111,7 @@
       </div>
     </div>
   </section>
-  <!-- END section -->
+   END section 
 
   <section class="probootstrap-section probootstrap-section-lighter">
     <div class="container">
@@ -154,7 +156,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <!-- END section -->
 @endsection

@@ -12,11 +12,11 @@
                 <div class = "probootstrap-footer-widget probootstrap-link-wrap">
                     <h4 class = "heading">Quick Links</h4>
                     <ul class = "stack-link">
-                        <li><a href = "#">Home</a></li>
-                        <li><a href = "#">About</a></li>
-                        <li><a href = "#">Services</a></li>
-                        <li><a href = "#">Products</a></li>
-                        <li><a href = "#">Testimonial</a></li>
+                        <li><a href = "/">Home</a></li>
+                        <li><a href = "/about">About Us</a></li>
+                        <li><a href = "/products">Products</a></li>
+                        <li><a href = "/blog">Blog</a></li>
+                        <li><a href = "/contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -24,15 +24,21 @@
                 <div class = "probootstrap-footer-widget">
                     <h4 class = "heading">More Links</h4>
                     <ul class = "stack-link">
-                        <li><a href = "#">Projects</a></li>
-                        <li><a href = "#">Privacy</a></li>
-                        <li><a href = "#">Terms</a></li>
-                        <li><a href = "#">Career</a></li>
-                        <li><a href = "#">Support Help</a></li>
+                        <li><a href = "/warranty">Warranty</a></li>
                     </ul>
                 </div>
             </div>
-         
+            <div class = "col-md-3">
+                <div class = "probootstrap-footer-widget">
+                    <h4 class = "heading">Products</h4>
+                    <ul class = "stack-link">
+                        <li><a href = "/products/ear">Ear Defender</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+
         </div>
         <div class = "row copyright">
             <div class = "col-md-6">
