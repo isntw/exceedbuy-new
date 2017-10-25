@@ -9,7 +9,7 @@
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
                 <h2>Warranty Registration</h2>
-                <p>Please enter your</p>
+                <p>Please enter your details</p>
               </div>
             </div>
           </div>

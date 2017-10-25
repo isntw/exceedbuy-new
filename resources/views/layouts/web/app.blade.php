@@ -35,7 +35,8 @@
 
         <!--Custom SCRIPTS-->
         <script src="{{ URL::asset('js/custom.js')}}"></script>
-
+      
+        @include('layouts.web._templates.messenger')
         @include('layouts.web._templates.notifications')
     </body>
 </html>

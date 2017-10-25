@@ -13,14 +13,14 @@ class ContactController extends Controller {
 
     public function store(SubmitRequest $request) {
 
-        \Mail::queue('email.contact', array(
+        \Mail::send('email.contact', array(
             'name' => $request->post('lname') . " " . $request->post('fname'),
             'email' => $request->post('email'),
             'body' => $request->post('body')
                 ), function($message) {
 
             $message->from('contact@exceedbuy.com');
-            $message->to('moneaiustin@gmail.com', 'Admin')->subject('Mail from an Exceedbuy user.');
+            $message->to('exceedbuy@gmail.com', 'Admin')->subject('Mail from an Exceedbuy user.');
         });
 
         \Toastr::success('Success', 'Message was succefully send.');

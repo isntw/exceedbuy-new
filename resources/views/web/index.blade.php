@@ -68,7 +68,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center section-heading probootstrap-animate">
-                <h2>Our Services</h2>
+                <h2>Welcome to ExceedBuy</h2>
             </div>
         </div>
         <div class="row">
@@ -79,16 +79,13 @@
                         <div class="panel-heading" role="tab" id="headingOne">
                             <h3 class="panel-title">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-
                                     Web Design
                                 </a>
                             </h3>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                             <div class="panel-body">
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-
-
+                                <p>We established ExceedBuy, to offer babies aged 3-36 months PREMIUM QUALITY products, in addictive TRENDY DESIGNS that will make your little treasure shine!</p>
                             </div>
                         </div>
                     </div>
@@ -157,7 +154,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center section-heading probootstrap-animate">
-                <h2>Recent Work</h2>
+                <h2>Products</h2>
             </div>
         </div>
                 <div class="col-md-4 probootstrap-animate">
