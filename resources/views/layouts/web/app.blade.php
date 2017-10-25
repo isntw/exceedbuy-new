@@ -13,6 +13,10 @@
         <link rel="stylesheet" href="{{ URL::asset('css/custom.css')}}">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
+        <!--Custom CSS-->
+        <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+
+
         <!--[if lt IE 9]>
           <script src="{{ URL::asset('js/vendor/html5shiv.min.js')}}"></script>
           <script src="{{ URL::asset('js/vendor/respond.min.js')}}"></script>
@@ -25,11 +29,13 @@
         <div class="gototop js-top">
             <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
         </div>
-        <script>
-$('div.alert').not('.alert-important').delay(3000).fadeOut(350);
-</script>
+
         <script src="{{ URL::asset('js/scripts.min.js')}}"></script>
         <script src="{{ URL::asset('js/main.min.js')}}"></script>
+
+        <!--Custom SCRIPTS-->
         <script src="{{ URL::asset('js/custom.js')}}"></script>
+
+        @include('layouts.web._templates.notifications')
     </body>
 </html>
