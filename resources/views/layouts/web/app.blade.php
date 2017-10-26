@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="{{ URL::asset('css/styles-merged.css')}}">
         <link rel="stylesheet" href="{{ URL::asset('css/style.min.css')}}">
         <link rel="stylesheet" href="{{ URL::asset('css/custom.css')}}">
+        <link rel="stylesheet" href="{{ URL::asset('css/bootstrap-datetimepicker.min.css')}}">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
         <!--Custom CSS-->
@@ -31,6 +32,7 @@
 
         <script src="{{ URL::asset('js/scripts.min.js')}}"></script>
         <script src="{{ URL::asset('js/main.min.js')}}"></script>
+        <script src="{{ URL::asset('js/bootstrap-datetimepicker.min.js')}}"></script>
 
         <!--Custom SCRIPTS-->
         <script src="{{ URL::asset('js/custom.js')}}"></script>

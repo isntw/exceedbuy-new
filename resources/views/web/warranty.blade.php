@@ -44,7 +44,7 @@
                         <input type="email" class="form-control" id="email" name="email">
                     </div>
 
-                 <!--<input type="text" value="2012-05-15 21:05" id="datetimepicker">-->
+                    <input type="text" value="2012-05-15 21:05" id="datetimepicker">
 
 
                     <div class="form-group">
