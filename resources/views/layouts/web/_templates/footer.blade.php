@@ -32,7 +32,7 @@
             <div class="col-md-3">
                 <div class="probootstrap-footer-widget">
                     <h4 class="heading">Subscribe</h4>
-                    <form action="{{route(web.index.subscribe)}}">
+                    <form action="{{route('web.index.subscribe')}}">
                         <div class="form-field">
                             <input type="text" class="form-control" placeholder="Enter your email">
                             <button class="btn btn-subscribe">Send</button>
