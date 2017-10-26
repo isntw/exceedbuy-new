@@ -15,7 +15,6 @@
 
         <!--Custom CSS-->
         <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
 
         <!--[if lt IE 9]>
           <script src="{{ URL::asset('js/vendor/html5shiv.min.js')}}"></script>
