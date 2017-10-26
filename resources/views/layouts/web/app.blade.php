@@ -11,11 +11,11 @@
         <link rel="stylesheet" href="{{ URL::asset('css/styles-merged.css')}}">
         <link rel="stylesheet" href="{{ URL::asset('css/style.min.css')}}">
         <link rel="stylesheet" href="{{ URL::asset('css/custom.css')}}">
+        <link rel="stylesheet" href="{{ URL::asset('css/bootstrap-datetimepicker.min.css')}}">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
         <!--Custom CSS-->
         <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
 
         <!--[if lt IE 9]>
           <script src="{{ URL::asset('js/vendor/html5shiv.min.js')}}"></script>
@@ -32,6 +32,7 @@
 
         <script src="{{ URL::asset('js/scripts.min.js')}}"></script>
         <script src="{{ URL::asset('js/main.min.js')}}"></script>
+        <script src="{{ URL::asset('js/bootstrap-datetimepicker.min.js')}}"></script>
 
         <!--Custom SCRIPTS-->
         <script src="{{ URL::asset('js/custom.js')}}"></script>
