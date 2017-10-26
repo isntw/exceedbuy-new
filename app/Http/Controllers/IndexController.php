@@ -21,10 +21,10 @@ class IndexController extends Controller {
     public function subscribe(Request $request) {
         \Mail::send('email.subscribe', array('email' => $request->post('email')), function($message) {
             $message->from('contact@exceedbuy.com');
-            $message->to('moneaiustin@gmail.com', 'Admin')->subject('Mail from an Exceedbuy user.');
+            $message->to('moneaiustin@gmail.com', 'Admin')->subject('New subscription on Exceedbuy.com');
         });
         \Toastr::success('Success', 'Message was succefully send.');
-        return redirect()->back();
+        return redirect()->home();
     }
 
 }

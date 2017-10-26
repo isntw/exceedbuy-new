@@ -23,7 +23,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 probootstrap-animate overlap">
-                <form action="{{route('web.warranty.registration')}}" method="post" class="probootstrap-form probootstrap-form-box mb60">
+                <form action="/warranty/store" method="post" class="probootstrap-form probootstrap-form-box mb60">
                     <div class="row">
                         {{ csrf_field() }}
                         <div class="col-md-6">
@@ -52,7 +52,7 @@
                         <textarea cols="30" rows="10" class="form-control" id="message" name="body"></textarea>
                     </div>
                     <div class="form-group">
-                        <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Send Message">
+                        <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Register">
                     </div>
                 </form>
             </div>
