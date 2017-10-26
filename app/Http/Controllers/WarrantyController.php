@@ -15,13 +15,16 @@ class WarrantyController extends Controller {
         \Mail::send('email.contact', array(
             'name' => $request->post('lname') . " " . $request->post('fname'),
             'email' => $request->post('email'),
+            'date' => $request->post('date'),
             'body' => $request->post('body')
                 ), function($message) {
 
-            $message->from('contact@exceedbuy.com');
-            $message->to('moneaiustin@gmail.com', 'Admin')->subject('Contact EXCEEDBUY');
-            return redirect()->back()->with('message', 'Thanks for contacting us!');
+            $message->from('warranty@exceedbuy.com');
+            $message->to('moneaiustin@gmail.com', 'Admin')->subject('Mail from an Exceedbuy user.');
         });
+
+        \Toastr::success('Success', 'Message was succefully send.');
+        return redirect()->back();
     }
 
 }

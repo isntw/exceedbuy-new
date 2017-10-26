@@ -45,7 +45,7 @@
                     </div>
                     <div class="form-group">
                         <label for="email">Date</label>
-                        <input type="text" class="form-control" id="datetimepicker">
+                        <input type="text" class="form-control" id="datetimepicker" name="date">
                     </div>
                     <div class="form-group">
                         <label for="body">Message</label>

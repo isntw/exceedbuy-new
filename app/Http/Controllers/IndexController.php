@@ -18,4 +18,13 @@ class IndexController extends Controller {
         return view('web.services');
     }
 
+    public function subscribe(Request $request) {
+        \Mail::send('email.subscribe', array('email' => $request->post('email')), function($message) {
+            $message->from('contact@exceedbuy.com');
+            $message->to('moneaiustin@gmail.com', 'Admin')->subject('Mail from an Exceedbuy user.');
+        });
+        \Toastr::success('Success', 'Message was succefully send.');
+        return redirect()->back();
+    }
+
 }
