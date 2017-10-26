@@ -8,7 +8,12 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
-                            <h2>Quality, a way of life !</h2>
+                            <h2>Welcome to ExceedBuy</h2>
+                            <p style="font-size: 20px;">Quality, a way of life !</p>
+                            <ul class = "probootstrap-social">
+                                <li><a href = "#"><i class="fa fa-arrow-down" ></i> </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -107,7 +112,7 @@
                         <div class="panel-heading" role="tab" id="headingThree">
                             <h3 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    SEO &amp; Ranking
+                                    SEO
                                 </a>
                             </h3>
                         </div>
