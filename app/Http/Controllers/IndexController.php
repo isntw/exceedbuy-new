@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\SubscriptionRequest;
 
 class IndexController extends Controller {
 
@@ -18,12 +19,14 @@ class IndexController extends Controller {
         return view('web.services');
     }
 
-    public function subscribe(Request $request) {
-        \Mail::send('email.subscribe', array('email' => $request->post('email')), function($message) {
+    public function subscribe(SubscriptionRequest $request) {
+        \Mail::send('email.subscribe', array(
+            'email' => $request->post('email'),
+                ), function($message) {
             $message->from('contact@exceedbuy.com');
             $message->to('moneaiustin@gmail.com', 'Admin')->subject('New subscription on Exceedbuy.com');
         });
-        \Toastr::success('Success', 'Message was succefully send.');
+        \Toastr::success('Success', 'Succefully subscribed.');
         return redirect()->home();
     }
 
