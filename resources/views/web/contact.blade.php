@@ -47,19 +47,6 @@
                         <label for="body">Message</label>
                         <textarea cols="30" rows="10" class="form-control" id="message" name="body"></textarea>
                     </div>
-                    
-                    @if(count($errors))
-                    <div class='form-group'>
-                        <div class="alert alert-danger">
-                            <ul>
-                                @foreach($errors->all() as $error)
-                                <li><strong>Error!</strong> {{$error}}</li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    </div>
-                    @endif
-                    
                     <div class="form-group">
                         <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Send Message">
                     </div>
@@ -73,7 +60,7 @@
                 </ul>
 
                 <h4>Feedback</h4>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p>Here, at ExceedBuy, we design and manufacture thoughtful, affordable & unique products.Great quality, Best choice!</p>
             </div>
         </div>
     </div>

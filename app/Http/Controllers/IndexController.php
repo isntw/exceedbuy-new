@@ -24,7 +24,7 @@ class IndexController extends Controller {
             'email' => $request->post('email'),
                 ), function($message) {
             $message->from('contact@exceedbuy.com');
-            $message->to('moneaiustin@gmail.com', 'Admin')->subject('New subscription on Exceedbuy.com');
+            $message->to('exceedbuy@gmail.com', 'Admin')->subject('New subscription on Exceedbuy.com');
         });
         \Toastr::success('Success', 'Succefully subscribed.');
         return redirect()->back();

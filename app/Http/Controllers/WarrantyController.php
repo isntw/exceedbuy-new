@@ -20,7 +20,7 @@ class WarrantyController extends Controller {
             'body' => $request->post('body')
                 ), function($message) {
             $message->from('contact@exceedbuy.com');
-            $message->to('moneaiustin@gmail.com', 'Admin')->subject('Warranty registration from an Exceedbuy user.');
+            $message->to('exceedbuy@gmail.com', 'Admin')->subject('Warranty registration from an Exceedbuy user.');
         });
 
         \Toastr::success('Success', 'Succefully registered.');
