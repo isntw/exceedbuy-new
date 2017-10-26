@@ -9,7 +9,7 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
-                <h2>Ear Defender</h2>
+                <h2>Kids Safety Ear Muffs</h2>
                 <p></p>
               </div>
             </div>
