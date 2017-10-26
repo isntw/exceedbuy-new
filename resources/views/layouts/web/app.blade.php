@@ -25,6 +25,7 @@
     <body>
         @include('layouts/web/_templates/header')
         @yield('content')
+        @include('layouts.web._templates.people_say')
         @include('layouts/web/_templates/footer')
         <div class="gototop js-top">
             <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>

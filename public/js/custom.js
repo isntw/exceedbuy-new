@@ -2,9 +2,10 @@ jQuery(document).ready(function () {
 
     "use strict";
     // Your custom js code goes here.
-
     $('#datetimepicker').datetimepicker({
-        format: 'yyyy-mm-dd'
+        minView: 2,
+        format: 'dd/mm/yyyy',
+        autoclose: true
     });
 
 });

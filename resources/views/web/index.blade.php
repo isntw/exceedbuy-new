@@ -79,7 +79,7 @@
                         <div class="panel-heading" role="tab" id="headingOne">
                             <h3 class="panel-title">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Web Design
+                                    Premium Quality
                                 </a>
                             </h3>
                         </div>
@@ -93,14 +93,13 @@
                         <div class="panel-heading" role="tab" id="headingTwo">
                             <h3 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    WordPress Integration
+                                    Our Products 
                                 </a>
                             </h3>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                             <div class="panel-body">
-                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-
+                                <p>All our products are certified and tested by third-party laboratories.</p>
                             </div>
                         </div>
                     </div>
@@ -114,7 +113,7 @@
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                             <div class="panel-body">
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                                <p>ExceedBuy was founded in 2017 by Lucachi Bogdan.</p>
                             </div>
                         </div>
                     </div>
@@ -157,67 +156,11 @@
                 <h2>Products</h2>
             </div>
         </div>
-                <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card with-hover">
-            <div class="probootstrap-card-media">
-              <a href="products/ear"><img src="{{url('img/product_1.png')}}" class="img-responsive img-border"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Ear Defender</h2>
-              <p class="category">Babies</p>
-              <p><a href="products/ear">View details</a></p>
-            </div>
-          </div>
-        </div>
-       
-        </div>
+        @include('web.products.ear.ear_panel')
+
+
     </div>
+</div>
 </section>
 <!-- END section -->
-
-<section class="probootstrap-section probootstrap-section-lighter">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center section-heading probootstrap-animate">
-                <h2>People Says...</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4  probootstrap-animate">
-                <div class="probootstrap-testimony">
-                    <blockquote>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    </blockquote>
-                    <div class="author">
-                        <img src="img/person_1.jpg" class="img-responsive" >
-                        <div>John Doe <span>Designer at ProBootstrap.com</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4  probootstrap-animate">
-                <div class="probootstrap-testimony">
-                    <blockquote>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    </blockquote>
-                    <div class="author">
-                        <img src="img/person_2.jpg" class="img-responsive" >
-                        <div>John Doe <span>Designer at ProBootstrap.com</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4  probootstrap-animate">
-                <div class="probootstrap-testimony">
-                    <blockquote>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    </blockquote>
-                    <div class="author">
-                        <img src="img/person_3.jpg" class="img-responsive" >
-                        <div>John Doe <span>Designer at ProBootstrap.com</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 @endsection

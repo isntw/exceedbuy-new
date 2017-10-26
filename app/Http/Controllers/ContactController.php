@@ -20,7 +20,7 @@ class ContactController extends Controller {
                 ), function($message) {
 
             $message->from('contact@exceedbuy.com');
-            $message->to('exceedbuy@gmail.com', 'Admin')->subject('Mail from an Exceedbuy user.');
+            $message->to('moneaiustin@gmail.com', 'Admin')->subject('Mail from an Exceedbuy user.');
         });
 
         \Toastr::success('Success', 'Message was succefully send.');
