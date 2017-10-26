@@ -24,3 +24,4 @@ Route::get('/contact', 'ContactController@index')->name('web.contact');
 Route::get('/blog', 'IndexController@services')->name('web.blog');
 Route::post('/contact/store', 'ContactController@store')->name('web.contact.store');
 Route::get('/warranty', 'WarrantyController@index')->name('web.warranty');
+Route::post('/warranty/registration', 'WarrantyController@index')->name('web.warranty.registration');

@@ -23,7 +23,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 probootstrap-animate overlap">
-                <form action="/warranty/registration" method="post" class="probootstrap-form probootstrap-form-box mb60">
+                <form action="{{route('web.warranty.registration')}}" method="post" class="probootstrap-form probootstrap-form-box mb60">
                     <div class="row">
                         {{ csrf_field() }}
                         <div class="col-md-6">

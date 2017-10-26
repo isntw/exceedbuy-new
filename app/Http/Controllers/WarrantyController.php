@@ -10,16 +10,16 @@ class WarrantyController extends Controller {
         return view('web.warranty');
     }
 
-    public function store(SubmitRequest $request) {
+    public function registration(SubmitRequest $request) {
 
-        \Mail::send('email.contact', array(
+        \Mail::send('email.warranty', array(
             'name' => $request->post('lname') . " " . $request->post('fname'),
             'email' => $request->post('email'),
             'date' => $request->post('date'),
             'body' => $request->post('body')
                 ), function($message) {
 
-            $message->from('warranty@exceedbuy.com');
+            $message->from('contact@exceedbuy.com');
             $message->to('moneaiustin@gmail.com', 'Admin')->subject('Mail from an Exceedbuy user.');
         });
 
