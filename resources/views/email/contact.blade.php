@@ -16,6 +16,18 @@
                             <p>{{ $name }}</p>
                         </div>
                     </div>
+                    <div class="col-md-4 text-center">
+                        <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
+                            <h2>Name:</h2>
+                            <p>{{ $name }}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
+                            <h2>Name:</h2>
+                            <p>{{ $name }}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
