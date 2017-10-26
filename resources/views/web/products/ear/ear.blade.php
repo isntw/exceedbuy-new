@@ -9,7 +9,7 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
-                <h2>Kids Safety Ear Muffs</h2>
+                <h2>Products</h2>
                 <p></p>
               </div>
             </div>
@@ -25,7 +25,7 @@
       <div class="row">
         <div class="col-md-9 mb50">
           <p><img src="{{url('img/product_1.png')}}" class="img-responsive img-border"></p>
-          <h2>Title</h2>
+          <h2>Kids Safety Ear Muffs</h2>
           <p>Details</p>
 
 <!--          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>

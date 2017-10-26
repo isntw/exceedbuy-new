@@ -9,7 +9,7 @@
                     <div class="col-md-12 text-center">
                         <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
                             <h2>Products</h2>
-                            <p>Our products.</p>
+                            <p>All our products are certified and tested by third-party laboratories</p>
                         </div>
                     </div>
                 </div>
