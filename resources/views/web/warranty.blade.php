@@ -44,7 +44,7 @@
                         <input type="email" class="form-control" id="email" name="email">
                     </div>
                     <div class="form-group">
-                        <label for="email">Date</label>
+                        <label for="date">Date</label>
                         <input type="text" class="form-control" id="datetimepicker" name="date">
                     </div>
                     <div class="form-group">

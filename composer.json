@@ -12,7 +12,8 @@
         "laracasts/flash": "^3.0",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
-        "oriceon/toastr-5-laravel": "@dev"
+        "oriceon/toastr-5-laravel": "@dev",
+        "secondtruth/startmin": "^1.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
@@ -34,6 +35,9 @@
             "Tests\\": "tests/"
         }
     },
+    "publish": [
+        "php artisan vendor:publish --tag=libs"
+    ],
     "extra": {
         "laravel": {
             "dont-discover": [

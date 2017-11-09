@@ -21,11 +21,12 @@ class WarrantyRequest extends FormRequest {
      * @return array
      */
     public function rules() {
+//        dd($this->date);
         return [
             'fname' => 'required',
             'lname' => 'required',
             'email' => 'required|email',
-        //    'date' => 'required|date|date_format:DD/MM/yyyy|before:today',
+            'date' => 'required|date_format:d/m/Y|before:today',
             'body' => 'required|max:4096',
         ];
     }

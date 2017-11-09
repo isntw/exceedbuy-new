@@ -32,23 +32,23 @@
                     <div class="icon">
                         <i class="icon-laptop3"></i>
                     </div>
-                    <div class="text">
-                        <h3 class="heading">Why ExceedBuy?</h3>
-                        <p>At ExceedBuy.com we have always set out to be the kind of company that we would want to deal with if we were making an online purchase. Consequently, we take security and customer service very seriously and appreciate the trust placed in us by all of our customers when making a purchase. </p>
-                        <!--<p><a href="single-page.html">Learn more</a></p>-->
-                    </div>
 
+                    <div class="text collapse" >
+                        <h3 class="heading">Why ExceedBuy?</h3>
+                        <p>At ExceedBuy.com we have always set <br>out to be the kind of company that we would want to deal with if we were</p>
+                        <p><a data-toggle="collapse" data-target="#collapse1" style="cursor: pointer; ">Learn more</a></p>
+                        <p id="collapse1" class="collapse">making an online purchase. Consequently, we take security and customer service very seriously and appreciate the trust placed in us by all of our customers when making a purchase. </p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="service left-icon probootstrap-animate">
+                <div class="service left-icon probootstrap-animate" style="height:191px;">
                     <div class="icon">
                         <i class="icon-presentation"></i>
                     </div>
                     <div class="text">
                         <h3 class="heading">Our Products</h3>
                         <p>All our products are carefully selected and of the highest quality and checked before dispatch. We aim to stock the highest quality brands of baby products! </p>
-                        <!--<p><a href="single-page.html">Learn more</a></p>-->
                     </div>
                 </div>
             </div>
@@ -59,8 +59,10 @@
                     </div>
                     <div class="text">
                         <h3 class="heading">Store</h3>
-                        <p>The ExceedBuy store has one main goal in mind. We aim to offer quality, unique and affordable children's products to parents, grandparents, family and friends who will be delighted to purchase (or receive as a gift) one of our products. </p>
-                        <!--<p><a href="single-page.html">Learn more</a></p>-->
+                        <p>The ExceedBuy store has one main goal in mind. We aim to offer quality, unique and affordable children's products to parents,</p>
+                        <p><a data-toggle="collapse" data-target="#collapse2"  style="cursor: pointer; ">Learn more</a></p>
+                        <p id="collapse2" class="collapse"> grandparents, family and friends who will be delighted to purchase (or receive as a gift) one of our products. </p>
+
                     </div>
                 </div>
             </div>

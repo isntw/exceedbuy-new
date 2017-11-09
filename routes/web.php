@@ -11,6 +11,14 @@
   |
  */
 
+function prefixRouteNames($prefix, Array $methods = ['index', 'store', 'create', 'show', 'destroy', 'update', 'edit']) {
+    $routeNames = [];
+    foreach ($methods as $method) {
+        $routeNames[$method] = $prefix . '.' . $method;
+    }
+
+    return $routeNames;
+}
 
 Auth::routes();
 
@@ -25,3 +33,11 @@ Route::post('/contact/store', 'ContactController@store')->name('web.contact.stor
 Route::get('/blog', 'IndexController@services')->name('web.blog');
 Route::get('/warranty', 'WarrantyController@index')->name('web.warranty');
 Route::post('/warranty/store', 'WarrantyController@store')->name('web.warranty.store');
+
+Route::get('/contest', 'ContestController@index')->name('web.contest.index');
+Route::post('/contest/store', 'ContestController@store')->name('web.contest.store');
+
+Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
+    Route::get('/', 'AdminController@index')->name('admin.index');
+    Route::get('/dashboard/show', 'AdminController@show')->name('admin.dashboard.show');
+});
