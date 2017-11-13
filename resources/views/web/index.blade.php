@@ -9,11 +9,12 @@
                     <div class="col-md-12 text-center">
                         <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
                             <h2>Welcome to ExceedBuy</h2>
-                            <p style="font-size: 20px;">Quality, a way of life !</p>
-                            <ul class = "probootstrap-social">
-                                <li><a href = "#"><i class="fa fa-arrow-down" ></i> </a>
-                                </li>
-                            </ul>
+                            <p style="font-size: 20px;">Quality, a way of life.</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <p style="font-size: 20px;"><i class="fa fa-arrow-circle-down fa-4x" id='button'></i></p>
                         </div>
                     </div>
                 </div>
@@ -74,7 +75,7 @@
 <div class="probootstrap-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center section-heading probootstrap-animate">
+            <div class="col-md-12 text-center section-heading probootstrap-animate" id="startDiv">
                 <h2>Welcome to ExceedBuy</h2>
             </div>
         </div>

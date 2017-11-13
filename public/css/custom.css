@@ -6,5 +6,17 @@
     display: inline-grid;
 }
 h2{
-  font-size:40px !important;
+    font-size:40px !important;
+}
+
+.images {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 15px 15px 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+
+}
+.images:hover {
+    box-shadow: 0 0 5px 1px rgb(34, 234, 170);
 }

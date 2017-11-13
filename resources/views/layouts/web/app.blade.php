@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="{{ URL::asset('css/style.min.css')}}">
         <link rel="stylesheet" href="{{ URL::asset('css/custom.css')}}">
         <link rel="stylesheet" href="{{ URL::asset('css/bootstrap-datetimepicker.min.css')}}">
+        <link href="{{ URL::asset('resources/theme/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
         <!--Custom CSS-->

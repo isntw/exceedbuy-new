@@ -8,9 +8,8 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
-                            <h2>Enter the Competition</h2>
+                            <h2>Giveaway ends in:</h2>
                             <h2><div id="clock"></div></h2>
-                            <p>Details</p>
                         </div>
                     </div>
                 </div>
@@ -23,13 +22,18 @@
 <section class="probootstrap-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 probootstrap-animate overlap">
+            <div class="col-md-12 probootstrap-animate overlap" style='margin-top:-410px;'>
                 <form action="{{route('web.contest.store')}}" method="post" class="probootstrap-form probootstrap-form-box mb60">
+                    <h4 style="margin-bottom:40px;">Enter to win these wonderful baby hearing protection ear muffs.The perfect way to keep your little one's hearing safe.</h4>
+
                     <div class="row">
                         {{ csrf_field() }}
                         <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
                             <p><img src="img/index_01.jpg"  class="img-responsive"></p>
                         </div>
+                        <h3><b class='text-danger'>Number of Winners:</b> 5</h3>
+                        <h3><b class='text-danger'>Total Prize Value:</b>  $39.99</h3>
+
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="name">Name</label>
