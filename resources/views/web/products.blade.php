@@ -23,7 +23,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center section-heading probootstrap-animate">
-                <h2>Check our products.</h2>
+                <h2>Check our products</h2>
             </div>
         </div>
         <div class="row">

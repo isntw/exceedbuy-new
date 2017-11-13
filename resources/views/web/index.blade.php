@@ -10,11 +10,8 @@
                         <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
                             <h2>Welcome to ExceedBuy</h2>
                             <p style="font-size: 20px;">Quality, a way of life.</p>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <p style="font-size: 20px;"><i class="fa fa-arrow-circle-down fa-4x" id='button'></i></p>
+                            
+                           <i class="fa fa-arrow-circle-down fa-5x probootstrap-animate" id='button' data-animate-effect="fadeIn"></i>
                         </div>
                     </div>
                 </div>

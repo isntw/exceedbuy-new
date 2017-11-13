@@ -8,6 +8,12 @@ jQuery(document).ready(function () {
         autoclose: true
     });
 
+    $("#button").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#startDiv").offset().top
+        }, 2000);
+    });
+
 });
 
 $(document).ready(function () {
@@ -16,8 +22,3 @@ $(document).ready(function () {
 });
 
 
-$("#button").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#startDiv").offset().top
-    }, 2000);
-});

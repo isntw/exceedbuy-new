@@ -26,7 +26,8 @@
             <div class="col-xs-9 col-md-9 mb50">
                 <p><img src="{{url('img/slider_1.jpg')}}" class="img-responsive img-border" id="image"></p>
                 <h2>Baby Ear Muffs By Exceedbuy</h2>
-                <br>
+                <p><a href="#" target="_blank" role="button" class="btn btn-primary btn-sm">Visit Product on Amazon</a></p>
+
                 <h4>THE PERFECT WAY TO KEEP YOUR LITTLE ONE’S HEARING SAFE</h4>
                 <p>Are you worried about loud noises upsetting your little one, causing them discomfort, or even 
                     damaging their over-sensitive little ears? Well, you don’t have to be. These wonderful baby hearing protection ear 

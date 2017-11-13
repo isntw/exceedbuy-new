@@ -19,4 +19,10 @@ h2{
 }
 .images:hover {
     box-shadow: 0 0 5px 1px rgb(34, 234, 170);
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+#button{
+    margin-top: 210px;
+    cursor: pointer;
 }
