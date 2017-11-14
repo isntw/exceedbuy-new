@@ -40,4 +40,5 @@ Route::post('/contest/store', 'ContestController@store')->name('web.contest.stor
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
     Route::get('/', 'AdminController@index')->name('admin.index');
     Route::get('/dashboard/show', 'AdminController@show')->name('admin.dashboard.show');
+    Route::delete('/dashboard/delete/{contest}', 'AdminController@delete')->name('admin.dashboard.delete');
 });

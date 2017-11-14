@@ -9,6 +9,13 @@
 
         <title>Administrare Transport</title>
 
+        <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/alertify.min.js"></script>
+        <script src="{{ URL::asset('resources/theme/js/jquery.min.js')}}"></script>
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/alertify.min.css"/>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/themes/default.min.css"/>
+
+
         <!-- Bootstrap Core CSS -->
         <link href="{{ URL::asset('resources/theme/css/bootstrap.min.css')}}" rel="stylesheet">
 
@@ -21,17 +28,11 @@
         <link href="{{ URL::asset('css/bootstrap-datetimepicker.min.css')}}" rel="stylesheet" >
         <link href="{{ URL::asset('resources/theme/css/startmin.css')}}" rel="stylesheet">
 
-
-
         <!-- Custom Fonts -->
         <link href="{{ URL::asset('resources/theme/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+                <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+
     </head>
     <body>
         <div id="wrapper">
@@ -39,12 +40,9 @@
                 @include('layouts.admin._templates.top-navbar')
                 @include('layouts.admin._templates.side-navbar')
             </nav>
-
             @include('layouts.admin._templates.content')
-
         </div>
         <!-- jQuery -->
-        <script src="{{ URL::asset('resources/theme/js/jquery.min.js')}}"></script>
 
         <!-- Bootstrap Core JavaScript -->
         <script src="{{ URL::asset('resources/theme/js/bootstrap.min.js')}}"></script>
@@ -53,8 +51,10 @@
         <script src="{{ URL::asset('resources/theme/js/metisMenu.min.js')}}"></script>
 
         <!-- Custom Theme JavaScript -->
-        <script src="{{ URL::asset('resources/theme/js/startmin.js')}}"></script>
-        @stack('scripts')
 
+        <script src="{{ URL::asset('resources/theme/js/startmin.js')}}"></script>
+        <script src="{{ URL::asset('resources/theme/js/custom.js')}}"></script>
+        @stack('scripts')
+        @include('layouts.admin._templates.notifications')
     </body>
 </html>

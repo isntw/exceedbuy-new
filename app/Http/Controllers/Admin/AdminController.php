@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Contest;
 
 class AdminController extends Controller {
 
@@ -34,6 +35,12 @@ class AdminController extends Controller {
         return view('admin.dashboard.list')
                         ->with('title', 'Lista Email-uri')
                         ->with('string', $string);
+    }
+
+    public function delete(Request $request, Contest $contest) {
+        $contest->delete();
+        \Toastr::success('Success', 'Mail deleted!');
+        return redirect()->back();
     }
 
 }

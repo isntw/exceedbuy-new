@@ -17,4 +17,9 @@ class ContestController extends Controller {
                     return redirect(route('web.index'));
                 }, 5);
     }
+
+    public function delete() {
+        return view('web.contest');
+    }
+
 }
