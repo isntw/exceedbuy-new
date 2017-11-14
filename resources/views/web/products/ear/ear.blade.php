@@ -60,7 +60,7 @@
 
                 <p><a href="#" target="_blank" role="button" class="btn btn-primary btn-sm">Visit Product on Amazon</a></p>
             </div>
-            <div class="col-xs-2 col-md-2">
+            <div class="col-xs-3 col-md-3">
                 <img src="{{url('img/slider_1.jpg')}}" class="img-responsive img-border images probootstrap-animate">
                 <img src="{{url('img/slider_2.jpg')}}" class="img-responsive img-border images probootstrap-animate">
                 <img src="{{url('img/slider_3.jpg')}}" class="img-responsive img-border images probootstrap-animate">
