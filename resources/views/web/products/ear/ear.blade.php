@@ -23,11 +23,11 @@
 <section class="probootstrap-section">
     <div class="container">
         <div class="row">
-            <div class="col-xs-9 col-md-9 mb50">
-                <p><img src="{{url('img/slider_1.jpg')}}" class="img-responsive img-border" id="image"></p>
-                <h2>Baby Ear Muffs By Exceedbuy</h2>
+            <div class="col-xs-8 col-md-8 mb50">
+                <p><img src="{{url('img/products/ear_muffs/Session-041.jpg')}}" class="img-responsive img-border" id="image"></p>
+                <h2>Baby Ear Muffs By Exceedbuy</h2> <br>
                 <p><a href="#" target="_blank" role="button" class="btn btn-primary btn-sm">Visit Product on Amazon</a></p>
-
+                <br>
                 <h4>THE PERFECT WAY TO KEEP YOUR LITTLE ONE’S HEARING SAFE</h4>
                 <p>Are you worried about loud noises upsetting your little one, causing them discomfort, or even 
                     damaging their over-sensitive little ears? Well, you don’t have to be. These wonderful baby hearing protection ear 
@@ -56,15 +56,19 @@
                     <li>Did you know, for example, that loud noises can be dangerous to the sensitive hair cells found in the inner ear of infants and toddlers?</li>
                     <li>It’s true, but don’t worry; protecting your little angel’s hearing is a simple as popping on a pair of noise-reducing ear muffs!</li>
                 </ul>
-
-
+                <br>
                 <p><a href="#" target="_blank" role="button" class="btn btn-primary btn-sm">Visit Product on Amazon</a></p>
             </div>
-            <div class="col-xs-3 col-md-3">
-                <img src="{{url('img/slider_1.jpg')}}" class="img-responsive img-border images probootstrap-animate">
-                <img src="{{url('img/slider_2.jpg')}}" class="img-responsive img-border images probootstrap-animate">
-                <img src="{{url('img/slider_3.jpg')}}" class="img-responsive img-border images probootstrap-animate">
-                <img src="{{url('img/slider_4.jpg')}}" class="img-responsive img-border images probootstrap-animate">
+            <div class="col-xs-2 col-md-2">
+                <img src="{{url('img/products/ear_muffs/Session-041.jpg')}}" style="height: 165.781px;" class="img-responsive img-border images probootstrap-animate">
+                <img src="{{url('img/products/ear_muffs/Session-046.jpg')}}" style="height: 165.781px;" class="img-responsive img-border images probootstrap-animate">
+                <img src="{{url('img/products/ear_muffs/Session-049.jpg')}}" style="height: 165.781px;" class="img-responsive img-border images probootstrap-animate">
+                <img src="{{url('img/products/ear_muffs/Session-053.jpg')}}" style="height: 165.781px;" class="img-responsive img-border images probootstrap-animate">
+            </div>
+            <div class="col-xs-2 col-md-2">
+                <img src="{{url('img/products/ear_muffs/IMG_0922.jpg')}}" style="height: 165.781px;" class="img-responsive img-border images probootstrap-animate">
+                <img src="{{url('img/products/ear_muffs/IMG_0930.jpg')}}" style="height: 165.781px;" class="img-responsive img-border images probootstrap-animate">
+                <img src="{{url('img/products/ear_muffs/IMG_0934.jpg')}}" style="height: 165.781px;" class="img-responsive img-border images probootstrap-animate">
             </div>
         </div>
 
