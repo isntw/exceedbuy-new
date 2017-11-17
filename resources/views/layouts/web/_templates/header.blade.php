@@ -14,7 +14,7 @@
             <ul class="probootstrap-main-nav">
                 <li class="active"><a href="/">Home</a></li>
                 <li><a href="/about">About Us</a></li>
-                <li><a href="/products">Products</a></li>
+                <li><a href="{{route('web.product.ear')}}">Ear Muffs</a></li>
                 <li><a href="/blog">Blog</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
