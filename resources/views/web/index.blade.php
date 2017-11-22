@@ -3,7 +3,7 @@
 @section('content')
 <section class="probootstrap-slider flexslider">
     <ul class="slides">
-        <li style="background-image: url(img/slider_1.jpg);" class="overlay2">
+        <li style="background-image: url(img/poza2.jpg);" class="overlay2">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
