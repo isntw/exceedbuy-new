@@ -8,15 +8,14 @@ use App\Http\Requests\SubscriptionRequest;
 class IndexController extends Controller {
 
     public function index() {
-        return view('web.index');
-    }
-
-    public function single() {
-        return view('web.single-page');
+        return view('web.index')
+                        ->with('title', 'Welcome to ExceedBuy')
+                        ->with('description', 'Quality, a way of life.');
     }
 
     public function services() {
-        return view('web.services');
+        return view('web.services')
+                        ->with('title', 'Blog');
     }
 
     public function subscribe(SubscriptionRequest $request) {

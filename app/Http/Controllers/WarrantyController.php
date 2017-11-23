@@ -8,7 +8,9 @@ use App\Http\Requests\WarrantyRequest;
 class WarrantyController extends Controller {
 
     public function index() {
-        return view('web.warranty');
+        return view('web.warranty')
+                        ->with('title', 'Warranty Registration')
+                        ->with('description', 'Please enter your details');
     }
 
     public function store(WarrantyRequest $request) {

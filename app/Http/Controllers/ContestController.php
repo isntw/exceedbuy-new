@@ -8,7 +8,8 @@ use App\Contest;
 class ContestController extends Controller {
 
     public function index() {
-        return view('web.contest');
+        return view('web.contest')
+                        ->with('title', 'Giveaway ends in:');
     }
 
     public function store(Request $request) {

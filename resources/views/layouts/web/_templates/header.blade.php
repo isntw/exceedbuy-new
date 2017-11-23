@@ -40,3 +40,30 @@
         </nav>
     </div>
 </header>
+
+<section class="probootstrap-slider flexslider">
+    <ul class="slides">
+        <li style="background-image: url({{url('img/slide.jpg')}});" class="overlay2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
+                            <h2>{{ $title or '' }}</h2>
+                            <p style="font-size: 20px;">{{ $description or '' }}</p>
+                            @if(Route::currentRouteName() == 'web.index')
+                            <i class="fa fa-arrow-circle-down fa-4x probootstrap-animate" id='button' data-animate-effect="fadeIn"></i>
+                            @endif
+                            @if(Route::currentRouteName() == 'web.contest.index')
+                            <h2> 
+                                <div id="clock"></div> 
+                            </h2> 
+                            @endif
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+

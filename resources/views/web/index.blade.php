@@ -1,25 +1,6 @@
 @extends('layouts.web.app')
 
 @section('content')
-<section class="probootstrap-slider flexslider">
-    <ul class="slides">
-        <li style="background-image: url(img/poza2.jpg);" class="overlay2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
-                            <h2>Welcome to ExceedBuy</h2>
-                            <p style="font-size: 20px;">Quality, a way of life.</p>
-                            
-                           <i class="fa fa-arrow-circle-down fa-4x probootstrap-animate" id='button' data-animate-effect="fadeIn"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </li>
-    </ul>
-</section>
-<!-- END: slider  -->
 
 <section class="probootstrap-section">
     <div class="container">
