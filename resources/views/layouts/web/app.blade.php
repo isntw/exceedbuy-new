@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{config('app.name')}}</title>
-        <meta name="description" content="Quality, a way of life! Here, at ExceedBuy, we design and manufacture thoughtful, affordable & unique products.Great quality, Best choice!">
+        <meta name="description" content="We established ExceedBuy, to offer babies aged 3-36 months PREMIUM QUALITY products, in addictive TRENDY DESIGNS that will make your little treasure shine!">
         <meta name="keywords" content="baby,babies products, baby product, product, shop, baby shop, ear defender">
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="img/index_01.jpg" />
+        <meta property="og:image" content="img/slide.jpg" />
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
         <link rel="stylesheet" href="{{ URL::asset('css/styles-merged.css')}}">

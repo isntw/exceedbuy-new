@@ -9,7 +9,7 @@ class IndexController extends Controller {
 
     public function index() {
         return view('web.index')
-                        ->with('title', 'Welcome to ExceedBuy')
+                        ->with('title', 'ExceedBuy')
                         ->with('description', 'Quality, a way of life.');
     }
 
