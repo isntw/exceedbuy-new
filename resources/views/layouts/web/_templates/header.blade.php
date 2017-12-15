@@ -18,12 +18,7 @@
                 <li><a href="/blog">Blog</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
-            <ul class="probootstrap-right-nav hidden-xs">
-                <li><a href="#"><i class="icon-twitter"></i></a></li>
-                <li><a href="https://www.facebook.com/WeLoveGorgeousBabies/"><i class="icon-facebook2"></i></a></li>
-                <li><a href="#"><i class="icon-google-plus"></i></a></li>
 
-            </ul>
 
 
             <div class="extra-text visible-xs">
@@ -34,13 +29,19 @@
                 <p>	+755 413 5223</p>
                 <h5>Connect</h5>
                 <ul class="social-buttons">
-                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li><a href="https://twitter.com/ExceedBuy"><i class="icon-twitter"></i></a></li>
                     <li><a href="https://www.facebook.com/WeLoveGorgeousBabies/"><i class="icon-facebook2"></i></a></li>
                     <li><a href="#"><i class="icon-google-plus"></i></a></li>
                 </ul>
             </div>
         </nav>
     </div>
+    <ul class="probootstrap-right-nav hidden-xs">
+        <li><a href="https://twitter.com/ExceedBuy"><i class="icon-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/WeLoveGorgeousBabies/"><i class="icon-facebook2"></i></a></li>
+        <li><a href="#"><i class="icon-google-plus"></i></a></li>
+
+    </ul>
 </header>
 
 <section class="probootstrap-slider flexslider">
@@ -53,13 +54,13 @@
                             <h2>{{ $title or '' }}</h2>
                             <p style="font-size: 20px;">{{ $description or '' }}</p>
                             @if(Route::currentRouteName() == 'web.index' or Route::currentRouteName() == 'web.product.ear')
-                                <i class="fa fa-arrow-circle-down fa-4x probootstrap-animate" id='button'
-                                   data-animate-effect="fadeIn"></i>
+                            <i class="fa fa-arrow-circle-down fa-4x probootstrap-animate" id='button'
+                               data-animate-effect="fadeIn"></i>
                             @endif
                             @if(Route::currentRouteName() == 'web.contest.index')
-                                <h2>
-                                    <div id="clock"></div>
-                                </h2>
+                            <h2>
+                                <div id="clock"></div>
+                            </h2>
                             @endif
 
                         </div>

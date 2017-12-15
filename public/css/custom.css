@@ -26,3 +26,8 @@ h2{
     margin-top: 210px;
     cursor: pointer;
 }
+
+.probootstrap-right-nav{
+    right: 50px;
+    top: 90px;
+}
