@@ -15,7 +15,7 @@
                         <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
                             <p><img src="img/colaj/main.jpg" class="img-responsive"></p>
                         </div>
-                        <h3><b class='text-danger'>Number of Winners:</b> 5</h3>
+                        <h3><b class='text-danger'>Number of Winners:</b> 3</h3>
                         <h3><b class='text-danger'>Total Prize Value:</b> $39.99</h3>
 
                         <div class="col-md-6">
