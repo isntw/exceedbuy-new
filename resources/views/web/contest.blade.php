@@ -47,7 +47,7 @@
 @push('scripts')
 <script src="{{ URL::asset('js/countdown.js')}}"></script>
 <script>
-$('#clock').countdown('2017/12/10').on('update.countdown', function (event) {
+$('#clock').countdown('2018/01/23').on('update.countdown', function (event) {
     var $this = $(this).html(event.strftime(''
             + '<span>%-w</span> <small>week%!w</small> '
             + '<span>%-d</span> <small>day%!d</small> '
