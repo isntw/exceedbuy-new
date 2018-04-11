@@ -10,7 +10,8 @@ class IndexController extends Controller {
     public function index() {
         return view('web.index')
                         ->with('title', 'ExceedBuy')
-                        ->with('description', 'Quality, a way of life.');
+                        ->with('description', 'Quality, a way of life.')
+                        ->with('products', \App\Product::all());
     }
 
     public function services() {

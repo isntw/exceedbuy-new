@@ -142,7 +142,7 @@
                 <h2>Products</h2>
             </div>
         </div>
-        @include('web.products.ear.ear_panel')
+        @each('web.components.product_details', $products, 'product')
 
 
     </div>
