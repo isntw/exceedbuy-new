@@ -15,7 +15,7 @@
                         <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
                             <p><img src="img/colaj/main.jpg" class="img-responsive"></p>
                         </div>
-                        <h3><b class='text-danger'>Number of Winners:</b> 5</h3>
+                        <h3><b class='text-danger'>Number of Winners:</b> 3</h3>
                         <h3><b class='text-danger'>Total Prize Value:</b> $39.99</h3>
 
                         <div class="col-md-6">
@@ -47,7 +47,7 @@
 @push('scripts')
 <script src="{{ URL::asset('js/countdown.js')}}"></script>
 <script>
-$('#clock').countdown('2017/12/10').on('update.countdown', function (event) {
+$('#clock').countdown('2018/01/23').on('update.countdown', function (event) {
     var $this = $(this).html(event.strftime(''
             + '<span>%-w</span> <small>week%!w</small> '
             + '<span>%-d</span> <small>day%!d</small> '
